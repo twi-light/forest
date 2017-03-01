@@ -1,0 +1,46 @@
+{
+  "name": "forest",
+  "version": "0.0.0",
+  "description": "A simple forest simulation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twi-light/forest.git"
+  },
+  "author": "Twilight Sparkles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twi-light/forest/issues"
+  },
+  "homepage": "https://github.com/twi-light/forest#readme",
+  "dependencies": {
+    "adaptive-bezier-curve": "^1.0.3",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-env": "^1.1.1",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "jashkenas/coffeescript#2",
+    "css-loader": "^0.26.0",
+    "debounce": "^1.0.0",
+    "fast-simplex-noise": "^2.2.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "normalize-svg-path": "^0.1.0",
+    "parse-svg-path": "^0.1.2",
+    "pixi.js": "^4.3.3",
+    "preact": "^7.1.0",
+    "preact-compat": "^3.10.0",
+    "simplify-path": "^1.1.0",
+    "style-loader": "^0.13.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.3.1",
+    "webpack": "beta",
+    "webpack-dev-server": "beta",
+    "worker-loader": "^0.7.1",
+    "gifuct-js": "github:twi-light/gifuct-js",
+    "wsgif": "^1.0.0"
+  }
+}
